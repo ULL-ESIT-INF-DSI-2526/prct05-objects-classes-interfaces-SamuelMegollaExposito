@@ -1,4 +1,4 @@
-import { BibliographicItem } from "./bibliographicItem";
+import { BibliographicItem } from "./IBibliographicItem";
 
 /**
  * Maneja una collecion de bibliographic item

@@ -1,4 +1,4 @@
-import { BaseItem } from "./baseItem";
+import { BaseItem } from "./bibliographicItem";
 
 /**
  * Clase abstracta para una tesis academica

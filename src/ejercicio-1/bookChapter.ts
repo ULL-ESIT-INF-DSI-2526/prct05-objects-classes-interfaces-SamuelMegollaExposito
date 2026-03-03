@@ -1,4 +1,4 @@
-import { BaseItem } from "./baseItem";
+import { BaseItem } from "./bibliographicItem";
 
 /**
  * Representa un capitulo de un libro
