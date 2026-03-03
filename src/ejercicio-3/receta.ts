@@ -44,4 +44,18 @@ export class Receta implements IReceta {
 
     return { tiempoMin, tiempoMax };
   }
+
+  validate(): void {
+    if(!this.nombre || this.nombre.trim.length === 0){
+      throw new Error("El nombre no puede estar vacío")
+    }
+
+    if(!this.anioPublicacion){
+      throw new Error("El año de publicación no puede estar vacío")
+    }
+
+    if(!this.pasos || this.nombre.trim.length === 0){
+      throw new Error("Los pasos no pueden estar vacíos")
+    }
+  }
 }

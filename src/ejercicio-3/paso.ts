@@ -33,4 +33,14 @@ export class Paso implements IPaso {
   completarPaso(): void {
     this._vecesCompletado++;
   }
+
+  validate(): void {
+    if(!this.nombre || this.nombre.trim.length === 0){
+      throw new Error("El nombre no puede estar vacío")
+    }
+
+    if(!this.duracionSegundos){
+      throw new Error("Tiene que haber dura")
+    }
+  }
 }

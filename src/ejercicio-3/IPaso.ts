@@ -5,5 +5,6 @@ export interface IPaso {
   readonly opcional: boolean;
   readonly vecesCompletado: number;
 
+  validate(): void;
   completarPaso(): void;
 }
