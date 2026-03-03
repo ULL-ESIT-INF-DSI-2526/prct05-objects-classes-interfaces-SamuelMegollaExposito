@@ -3,3 +3,5 @@
 
 
 [![CI Tests](https://github.com/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-SamuelMegollaExposito/actions/workflows/ci.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-SamuelMegollaExposito/actions/workflows/ci.yml)
+
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-SamuelMegollaExposito/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-SamuelMegollaExposito?branch=main)
