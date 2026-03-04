@@ -54,7 +54,7 @@ export class Receta implements IReceta {
       throw new Error("El año de publicación no puede estar vacío")
     }
 
-    if(!this.pasos || this.nombre.trim.length === 0){
+    if(!this.pasos || this.pasos.length === 0){
       throw new Error("Los pasos no pueden estar vacíos")
     }
   }
