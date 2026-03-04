@@ -15,7 +15,6 @@ export class Refugio{
 	constructor(
 	private _plazasPerros: Perro[] = [],
 	private _plazasGato: Gato[] = [],
-	private _fechaIngreso: string
 	){}
 
 	get plazasPerros(){
@@ -38,5 +37,5 @@ export class Refugio{
 
 	}
 
-	
+
 }
